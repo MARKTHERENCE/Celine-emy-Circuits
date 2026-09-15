@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CELINESCHEMATIC celineVersion="1.0.0">
+  <PARAMETERS>
+    <PARAM id="bypass" value="0.0"/>
+    <PARAM id="channels" value="3.0"/>
+    <PARAM id="input" value="0.0"/>
+    <PARAM id="knob1" value="0.5"/>
+    <PARAM id="knob10" value="0.5"/>
+    <PARAM id="knob11" value="0.5"/>
+    <PARAM id="knob12" value="0.5"/>
+    <PARAM id="knob13" value="0.5"/>
+    <PARAM id="knob14" value="0.5"/>
+    <PARAM id="knob15" value="0.5"/>
+    <PARAM id="knob16" value="0.5"/>
+    <PARAM id="knob2" value="0.5"/>
+    <PARAM id="knob3" value="0.5"/>
+    <PARAM id="knob4" value="0.5"/>
+    <PARAM id="knob5" value="0.5"/>
+    <PARAM id="knob6" value="0.5"/>
+    <PARAM id="knob7" value="0.5"/>
+    <PARAM id="knob8" value="0.5"/>
+    <PARAM id="knob9" value="0.5"/>
+    <PARAM id="output" value="0.0"/>
+  </PARAMETERS>
+  <SCHEMATIC>
+    <ELEMENT id="1" type="1" x="0" y="0" orientation="0" mirrored="0" value="0.0"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="2" type="6" x="3" y="3" orientation="0" mirrored="0" value="100000.0"
+             label="Attack" taper="0" polarised="0" closed="1" controlPosition="0.5"/>
+    <ELEMENT id="3" type="0" x="3" y="9" orientation="0" mirrored="0" value="0.0"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="4" type="3" x="10" y="3" orientation="1" mirrored="0" value="5100.0"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="5" type="4" x="16" y="3" orientation="1" mirrored="0" value="2.2e-8"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="6" type="3" x="19" y="6" orientation="2" mirrored="0" value="180000.0"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="7" type="10" x="22" y="3" orientation="0" mirrored="0" value="0.0"
+             modelId="celine:bjt-2n2222a" label="" taper="0" polarised="0"
+             closed="1"/>
+    <ELEMENT id="8" type="3" x="24" y="-3" orientation="0" mirrored="0" value="18000.0"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="9" type="3" x="19" y="-1" orientation="0" mirrored="0" value="560000.0"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="10" type="3" x="19" y="-7" orientation="0" mirrored="0" value="560000.0"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="11" type="4" x="13" y="-1" orientation="0" mirrored="0" value="2.2e-8"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="12" type="10" x="28" y="0" orientation="2" mirrored="1" value="0.0"
+             modelId="celine:bjt-2n3906" label="" taper="0" polarised="0"
+             closed="1"/>
+    <ELEMENT id="13" type="0" x="24" y="12" orientation="0" mirrored="0" value="0.0"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="14" type="4" x="34" y="-3" orientation="1" mirrored="0" value="2.2e-8"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="15" type="4" x="34" y="-10" orientation="2" mirrored="0"
+             value="4.7e-11" label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="16" type="9" x="34" y="3" orientation="2" mirrored="0" value="0.0"
+             modelId="celine:diode-1n4148" label="" taper="0" polarised="0"
+             closed="1"/>
+    <ELEMENT id="17" type="9" x="37" y="3" orientation="0" mirrored="1" value="0.0"
+             modelId="celine:diode-1n4148" label="" taper="0" polarised="0"
+             closed="1"/>
+    <ELEMENT id="18" type="0" x="37" y="9" orientation="0" mirrored="0" value="0.0"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="19" type="6" x="40" y="0" orientation="0" mirrored="0" value="100000.0"
+             label="Volume" taper="0" polarised="0" closed="1" controlPosition="0.5"/>
+    <ELEMENT id="20" type="0" x="40" y="6" orientation="0" mirrored="0" value="0.0"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="21" type="3" x="47" y="0" orientation="1" mirrored="0" value="47000.0"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="22" type="2" x="52" y="0" orientation="0" mirrored="0" value="0.0"
+             label="" taper="0" polarised="0" closed="1" cab="0" cabFile=""/>
+    <ELEMENT id="23" type="3" x="41" y="-13" orientation="1" mirrored="0"
+             value="18000.0" label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="24" type="3" x="47" y="-13" orientation="1" mirrored="0"
+             value="100.0" label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="25" type="4" x="44" y="-10" orientation="2" mirrored="0"
+             value="0.000047" label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="26" type="0" x="44" y="-4" orientation="0" mirrored="0" value="0.0"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="27" type="0" x="50" y="-4" orientation="0" mirrored="0" value="0.0"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="28" type="8" x="50" y="-10" orientation="0" mirrored="0"
+             value="9.0" label="" taper="0" polarised="0" closed="1"/>
+    <WIRE id="1" x1="2" y1="0" x2="3" y2="0"/>
+    <WIRE id="2" x1="3" y1="0" x2="3" y2="1"/>
+    <WIRE id="3" x1="3" y1="5" x2="3" y2="7"/>
+    <WIRE id="4" x1="6" y1="3" x2="8" y2="3"/>
+    <WIRE id="5" x1="12" y1="3" x2="14" y2="3"/>
+    <WIRE id="6" x1="18" y1="3" x2="20" y2="3"/>
+    <WIRE id="7" x1="19" y1="3" x2="19" y2="4"/>
+    <WIRE id="8" x1="19" y1="1" x2="19" y2="3"/>
+    <WIRE id="9" x1="19" y1="-5" x2="19" y2="-3"/>
+    <WIRE id="10" x1="24" y1="-1" x2="24" y2="1"/>
+    <WIRE id="11" x1="24" y1="-13" x2="24" y2="-5"/>
+    <WIRE id="12" x1="19" y1="-13" x2="39" y2="-13"/>
+    <WIRE id="13" x1="19" y1="-13" x2="19" y2="-9"/>
+    <WIRE id="14" x1="19" y1="-4" x2="13" y2="-4"/>
+    <WIRE id="15" x1="13" y1="-4" x2="13" y2="-3"/>
+    <WIRE id="16" x1="13" y1="1" x2="13" y2="9"/>
+    <WIRE id="17" x1="13" y1="9" x2="30" y2="9"/>
+    <WIRE id="18" x1="19" y1="8" x2="19" y2="9"/>
+    <WIRE id="20" x1="24" y1="9" x2="24" y2="5"/>
+    <WIRE id="22" x1="30" y1="-13" x2="30" y2="-2"/>
+    <WIRE id="23" x1="24" y1="0" x2="26" y2="0"/>
+    <WIRE id="25" x1="30" y1="9" x2="30" y2="2"/>
+    <WIRE id="26" x1="24" y1="9" x2="24" y2="10"/>
+    <WIRE id="31" x1="34" y1="-13" x2="34" y2="-12"/>
+    <WIRE id="32" x1="34" y1="-8" x2="34" y2="-7"/>
+    <WIRE id="33" x1="34" y1="-7" x2="30" y2="-7"/>
+    <WIRE id="34" x1="30" y1="-3" x2="32" y2="-3"/>
+    <WIRE id="35" x1="36" y1="-3" x2="40" y2="-3"/>
+    <WIRE id="36" x1="37" y1="-3" x2="37" y2="1"/>
+    <WIRE id="37" x1="37" y1="0" x2="34" y2="0"/>
+    <WIRE id="38" x1="34" y1="0" x2="34" y2="1"/>
+    <WIRE id="39" x1="34" y1="5" x2="34" y2="6"/>
+    <WIRE id="40" x1="34" y1="6" x2="37" y2="6"/>
+    <WIRE id="41" x1="37" y1="5" x2="37" y2="7"/>
+    <WIRE id="42" x1="40" y1="2" x2="40" y2="4"/>
+    <WIRE id="44" x1="40" y1="-3" x2="40" y2="-2"/>
+    <WIRE id="45" x1="43" y1="0" x2="45" y2="0"/>
+    <WIRE id="46" x1="49" y1="0" x2="50" y2="0"/>
+    <WIRE id="48" x1="43" y1="-13" x2="45" y2="-13"/>
+    <WIRE id="49" x1="44" y1="-13" x2="44" y2="-12"/>
+    <WIRE id="50" x1="44" y1="-8" x2="44" y2="-6"/>
+    <WIRE id="51" x1="49" y1="-13" x2="50" y2="-13"/>
+    <WIRE id="52" x1="50" y1="-13" x2="50" y2="-12"/>
+    <WIRE id="53" x1="50" y1="-8" x2="50" y2="-6"/>
+  </SCHEMATIC>
+</CELINESCHEMATIC>
