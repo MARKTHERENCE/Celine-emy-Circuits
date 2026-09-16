@@ -20,6 +20,7 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
    - Xotic EP Booster
 
  - ## Guitar and Bass Amps
+   - Ampeg VH-140C (Preamp only)
    - Kitty Hawk Junior Series I
   
 ## Special Thanks
