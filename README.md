@@ -18,6 +18,9 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
    - K-YD1 Yui Driver
    - MSA Steel Pedal Fuzz
    - Xotic EP Booster
+
+ - ## Guitar and Bass Amps
+   - Kitty Hawk Junior Series I
   
 ## Special Thanks
   - stratürkoise for letting me know that this project exists.
