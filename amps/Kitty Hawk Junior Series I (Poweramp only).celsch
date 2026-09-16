@@ -122,6 +122,12 @@
              cabFile=""/>
     <ELEMENT id="121" type="21" x="65" y="-16" orientation="1" mirrored="0"
              value="0.0" label="FB" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="122" type="18" x="50" y="5" orientation="0" mirrored="0"
+             value="0.0" label="https://el34world.com/charts/Schematics/files/Kitty_hawk/Kittyhawk_junior.pdf"
+             taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="123" type="18" x="38" y="3" orientation="0" mirrored="0"
+             value="0.0" label="Kitty Hawk Junior Series I (Poweramp only)"
+             taper="0" polarised="0" closed="1"/>
     <WIRE id="150" x1="2" y1="0" x2="4" y2="0"/>
     <WIRE id="151" x1="13" y1="3" x2="13" y2="4"/>
     <WIRE id="152" x1="13" y1="4" x2="19" y2="4"/>

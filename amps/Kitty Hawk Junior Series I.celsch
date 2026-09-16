@@ -262,6 +262,12 @@
              value="1.07" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="123" type="0" x="175" y="-1" orientation="0" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="124" type="18" x="35" y="25" orientation="0" mirrored="0"
+             value="0.0" label="https://el34world.com/charts/Schematics/files/Kitty_hawk/Kittyhawk_junior.pdf"
+             taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="125" type="18" x="18" y="23" orientation="0" mirrored="0"
+             value="0.0" label="Kitty Hawk Junior Series I" taper="0" polarised="0"
+             closed="1"/>
     <WIRE id="1" x1="2" y1="0" x2="4" y2="0"/>
     <WIRE id="2" x1="12" y1="4" x2="12" y2="6"/>
     <WIRE id="3" x1="18" y1="2" x2="18" y2="3"/>
