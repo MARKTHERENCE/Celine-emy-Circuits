@@ -283,6 +283,12 @@
     <ELEMENT id="119" type="2" x="202" y="9" orientation="2" mirrored="1"
              value="0.0" label="" taper="0" polarised="0" closed="1" cab="0"
              cabFile=""/>
+    <ELEMENT id="120" type="18" x="19" y="20" orientation="0" mirrored="0"
+             value="0.0" label="https://www.hobby-hour.com/electronics/s/hm2-heavy-metal.php"
+             taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="121" type="18" x="6" y="18" orientation="0" mirrored="0"
+             value="0.0" label="Boss HM-2 Heavy Metal" taper="0" polarised="0"
+             closed="1"/>
     <WIRE id="1" x1="2" y1="0" x2="4" y2="0"/>
     <WIRE id="2" x1="8" y1="0" x2="10" y2="0"/>
     <WIRE id="3" x1="14" y1="0" x2="16" y2="0"/>
