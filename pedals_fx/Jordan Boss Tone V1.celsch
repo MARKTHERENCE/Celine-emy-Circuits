@@ -69,7 +69,8 @@
     <ELEMENT id="20" type="4" x="51" y="-9" orientation="1" mirrored="0" value="2.2e-9"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="21" type="6" x="54" y="-6" orientation="0" mirrored="0" value="100000.0"
-             label="Volume" taper="0" polarised="0" closed="1" controlPosition="0.5"/>
+             controlOrder="1" label="Volume" taper="0" polarised="0" closed="1"
+             controlPosition="0.5"/>
     <ELEMENT id="22" type="0" x="54" y="0" orientation="0" mirrored="0" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="23" type="2" x="60" y="-6" orientation="0" mirrored="0" value="0.0"

@@ -101,11 +101,14 @@
     <ELEMENT id="40" type="6" x="19" y="46" orientation="2" mirrored="0" value="10000.0"
              label="Tea" taper="0" polarised="0" closed="1" controlPosition="0.5"/>
     <ELEMENT id="41" type="6" x="31" y="31" orientation="1" mirrored="1" value="500000.0"
-             label="Drive" taper="0" polarised="0" closed="1" controlPosition="0.5"/>
+             controlOrder="1" label="Drive" taper="0" polarised="0" closed="1"
+             controlPosition="0.5"/>
     <ELEMENT id="42" type="6" x="52" y="20" orientation="3" mirrored="0" value="10000.0"
-             label="Tone" taper="0" polarised="0" closed="1" controlPosition="0.5"/>
+             controlOrder="2" label="Tone" taper="0" polarised="0" closed="1"
+             controlPosition="0.5"/>
     <ELEMENT id="43" type="6" x="87" y="23" orientation="0" mirrored="0" value="100000.0"
-             label="Volume" taper="1" polarised="0" closed="1" controlPosition="0.5"/>
+             controlOrder="3" label="Volume" taper="1" polarised="0" closed="1"
+             controlPosition="0.5"/>
     <ELEMENT id="44" type="18" x="43" y="49" orientation="0" mirrored="0"
              value="0.0" label="K-YD1 Yui Driver / Schematic Diagram by u/DraftYeti5608 @ Reddit"
              taper="0" polarised="0" closed="1"/>

@@ -60,7 +60,7 @@
     <ELEMENT id="17" type="3" x="35" y="-3" orientation="1" mirrored="0" value="15000.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="18" type="7" x="35" y="-8" orientation="1" mirrored="0" value="0.0"
-             label="Bright" taper="0" polarised="0" closed="0"/>
+             controlOrder="1" label="Bright" taper="0" polarised="0" closed="0"/>
     <ELEMENT id="19" type="4" x="41" y="0" orientation="2" mirrored="0" value="3.3e-9"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="20" type="3" x="41" y="-7" orientation="2" mirrored="0" value="1.0e6"
@@ -81,7 +81,7 @@
     <ELEMENT id="27" type="3" x="61" y="0" orientation="1" mirrored="0" value="18000.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="28" type="7" x="61" y="-5" orientation="1" mirrored="0" value="0.0"
-             label="Boost" taper="0" polarised="0" closed="0"/>
+             controlOrder="2" label="Boost" taper="0" polarised="0" closed="0"/>
     <ELEMENT id="29" type="3" x="64" y="3" orientation="2" mirrored="0" value="47000.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="30" type="0" x="64" y="9" orientation="0" mirrored="0" value="0.0"
