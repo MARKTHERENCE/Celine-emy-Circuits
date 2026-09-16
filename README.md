@@ -9,7 +9,6 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
  - ## Pedals & Effectors
    - Ao Drive (Boss BD-1 Blues Driver Style Op-Amp Clone)
      - High gain with discrete JFET transistors does not seem to work. They are replaced with NE5532 op-amps instead.
-   - Boss DS-1 Distortion
    - Boss HM-2 Heavy Metal
    - Dallas Rangemaster Treble Booster
    - Jordan Boss Tone V1/V2/V3
