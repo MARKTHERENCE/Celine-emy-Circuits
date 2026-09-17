@@ -21,7 +21,7 @@
     <PARAM id="knob7" value="0.0"/>
     <PARAM id="knob8" value="0.5"/>
     <PARAM id="knob9" value="0.0"/>
-    <PARAM id="output" value="0.0"/>
+    <PARAM id="output" value="9.600002288818359"/>
   </PARAMETERS>
   <SCHEMATIC>
     <ELEMENT id="1" type="1" x="0" y="0" orientation="0" mirrored="0" value="0.0"
