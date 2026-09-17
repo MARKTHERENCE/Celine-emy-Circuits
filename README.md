@@ -22,6 +22,7 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
  - ## Guitar and Bass Amps
    - Ampeg VH-140C (Preamp only)
    - Kitty Hawk Junior Series I
+   - Orange Thunderverb 50w
   
 ## Special Thanks
   - stratürkoise for letting me know that this project exists.
