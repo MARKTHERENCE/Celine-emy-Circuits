@@ -22,9 +22,10 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
  - ## Guitar and Bass Amps
    - Ampeg VH-140C (Preamp only)
    - Kitty Hawk Junior Series I
-   - Marshall JMP 1959 Super Lead, incl.
+   - Marshall JMP 1959 Super Lead 100w, incl.
      - Mk2 version
      - CAE +SE3 Crunch and Lead mods
+   - Marshall JMP 1987 Lead 50w, incl. Mk2
    - Marshall Silver Jubilee 2550 & 2555
    - Orange Rockerverb 50w
    - Orange Thunderverb 50w
