@@ -79,8 +79,6 @@
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="43" type="0" x="57" y="10" orientation="0" mirrored="1" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="44" type="3" x="57" y="-10" orientation="0" mirrored="1"
-             value="10000.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="45" type="8" x="39" y="-18" orientation="0" mirrored="1"
              value="220.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="47" type="8" x="81" y="-12" orientation="0" mirrored="1"
@@ -180,7 +178,7 @@
     <ELEMENT id="139" type="0" x="94" y="16" orientation="0" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="140" type="3" x="104" y="-4" orientation="0" mirrored="0"
-             value="365.0" label="" taper="0" polarised="0" closed="1"/>
+             value="360.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="141" type="0" x="104" y="2" orientation="0" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="142" type="3" x="21" y="-13" orientation="0" mirrored="0"
@@ -213,10 +211,9 @@
     <WIRE id="73" x1="57" y1="6" x2="57" y2="8"/>
     <WIRE id="74" x1="50" y1="-3" x2="54" y2="-3"/>
     <WIRE id="75" x1="50" y1="-10" x2="50" y2="-8"/>
-    <WIRE id="82" x1="57" y1="-15" x2="57" y2="-12"/>
+    <WIRE id="82" x1="57" y1="-15" x2="57" y2="-6"/>
     <WIRE id="83" x1="81" y1="-10" x2="81" y2="-8"/>
     <WIRE id="86" x1="32" y1="-21" x2="39" y2="-21"/>
-    <WIRE id="88" x1="57" y1="-8" x2="57" y2="-6"/>
     <WIRE id="89" x1="50" y1="-14" x2="50" y2="-16"/>
     <WIRE id="90" x1="57" y1="1" x2="61" y2="1"/>
     <WIRE id="91" x1="61" y1="1" x2="61" y2="-6"/>
