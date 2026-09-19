@@ -44,7 +44,7 @@
     <ELEMENT id="9" type="3" x="19" y="-13" orientation="0" mirrored="0" value="100000.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="14" type="6" x="38" y="10" orientation="0" mirrored="0" value="1.0e6"
-             controlOrder="6" label="Treble Volume" taper="1" polarised="0"
+             controlOrder="4" label="Treble Volume" taper="1" polarised="0"
              closed="1" controlPosition="0.5"/>
     <ELEMENT id="18" type="11" x="27" y="0" orientation="0" mirrored="1" value="0.0"
              modelId="celine:triode-12ax7-jj" label="" taper="0" polarised="0"
@@ -94,14 +94,13 @@
     <ELEMENT id="52" type="4" x="80" y="-7" orientation="3" mirrored="1" value="5.0e-10"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="53" type="6" x="85" y="-4" orientation="0" mirrored="0" value="280000.0"
-             controlOrder="4" label="Treble" taper="0" polarised="0" closed="1"
+             controlOrder="2" label="Treble" taper="0" polarised="0" closed="1"
              controlPosition="0.5"/>
     <ELEMENT id="54" type="6" x="85" y="8" orientation="0" mirrored="1" value="25000.0"
-             controlOrder="3" label="Mid" taper="0" polarised="0" closed="1"
+             controlOrder="1" label="Mid" taper="0" polarised="0" closed="1"
              controlPosition="0.5"/>
     <ELEMENT id="55" type="6" x="85" y="2" orientation="0" mirrored="0" value="1.0e6"
-             controlOrder="2" label="Bass" taper="1" polarised="0" closed="1"
-             controlPosition="0.5"/>
+             label="Bass" taper="1" polarised="0" closed="1" controlPosition="0.5"/>
     <ELEMENT id="56" type="4" x="80" y="-1" orientation="3" mirrored="1" value="2.2e-8"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="57" type="4" x="78" y="8" orientation="1" mirrored="0" value="2.2e-8"
@@ -160,10 +159,10 @@
              value="0.0" label="https://www.drtube.com/marshall-jmp/" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="123" type="6" x="34" y="-1" orientation="0" mirrored="0"
-             value="1.0e6" controlOrder="5" label="Normal Volume" taper="1"
+             value="1.0e6" controlOrder="3" label="Normal Volume" taper="1"
              polarised="0" closed="1" controlPosition="0.5"/>
     <ELEMENT id="126" type="20" x="12" y="0" orientation="1" mirrored="0"
-             value="0.0" controlOrder="7" label="Treble/Normal" taper="0"
+             value="0.0" controlOrder="5" label="Treble/Normal" taper="0"
              polarised="0" closed="0"/>
     <ELEMENT id="127" type="3" x="27" y="-13" orientation="0" mirrored="0"
              value="100000.0" label="" taper="0" polarised="0" closed="1"/>
@@ -186,7 +185,7 @@
     <ELEMENT id="137" type="0" x="45" y="-12" orientation="0" mirrored="1"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="139" type="20" x="55" y="0" orientation="3" mirrored="1"
-             value="0.0" controlOrder="7" label="Treble/Normal" taper="0"
+             value="0.0" controlOrder="5" label="Treble/Normal" taper="0"
              polarised="0" closed="0"/>
     <ELEMENT id="140" type="3" x="118" y="-23" orientation="1" mirrored="0"
              value="10000.0" label="" taper="0" polarised="0" closed="1"/>
