@@ -17,9 +17,9 @@
     <PARAM id="knob3" value="0.5"/>
     <PARAM id="knob4" value="0.5"/>
     <PARAM id="knob5" value="0.5"/>
-    <PARAM id="knob6" value="0.0"/>
-    <PARAM id="knob7" value="0.5"/>
-    <PARAM id="knob8" value="0.0"/>
+    <PARAM id="knob6" value="0.5"/>
+    <PARAM id="knob7" value="0.0"/>
+    <PARAM id="knob8" value="0.5"/>
     <PARAM id="knob9" value="0.5"/>
     <PARAM id="output" value="0.0"/>
   </PARAMETERS>
@@ -52,12 +52,12 @@
     <ELEMENT id="13" type="4" x="24" y="-10" orientation="1" mirrored="0"
              value="1.0e-9" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="14" type="6" x="27" y="2" orientation="0" mirrored="0" value="1.0e6"
-             controlOrder="8" label="Volume" taper="1" polarised="0" closed="1"
+             controlOrder="7" label="Volume" taper="1" polarised="0" closed="1"
              controlPosition="0.5"/>
     <ELEMENT id="15" type="4" x="30" y="-4" orientation="1" mirrored="1" value="4.7e-10"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="16" type="7" x="33" y="-1" orientation="2" mirrored="1" value="0.0"
-             controlOrder="7" label="Bright" taper="0" polarised="0" closed="0"/>
+             controlOrder="6" label="Bright" taper="0" polarised="0" closed="0"/>
     <ELEMENT id="17" type="0" x="27" y="8" orientation="0" mirrored="1" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="18" type="11" x="43" y="2" orientation="0" mirrored="0" value="0.0"
@@ -80,13 +80,9 @@
              polarised="0" closed="1"/>
     <ELEMENT id="29" type="3" x="85" y="1" orientation="0" mirrored="1" value="1000.0"
              label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="30" type="7" x="89" y="7" orientation="0" mirrored="1" value="0.0"
-             controlOrder="5" label="Open" taper="0" polarised="0" closed="0"/>
-    <ELEMENT id="31" type="0" x="85" y="7" orientation="0" mirrored="1" value="0.0"
+    <ELEMENT id="31" type="0" x="87" y="7" orientation="0" mirrored="1" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="33" type="4" x="89" y="1" orientation="0" mirrored="1" value="1.0e-6"
-             label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="34" type="0" x="89" y="13" orientation="0" mirrored="1" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="35" type="3" x="87" y="-13" orientation="0" mirrored="1"
              value="100000.0" label="" taper="0" polarised="0" closed="1"/>
@@ -141,7 +137,7 @@
     <ELEMENT id="59" type="3" x="117" y="-10" orientation="1" mirrored="1"
              value="332000.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="60" type="6" x="120" y="-7" orientation="0" mirrored="0"
-             value="220000.0" controlOrder="6" label="Master" taper="1" polarised="0"
+             value="220000.0" controlOrder="5" label="Master" taper="1" polarised="0"
              closed="1" controlPosition="0.5"/>
     <ELEMENT id="61" type="0" x="120" y="-1" orientation="0" mirrored="1"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
@@ -349,9 +345,6 @@
     <WIRE id="55" x1="85" y1="-2" x2="89" y2="-2"/>
     <WIRE id="56" x1="89" y1="-2" x2="89" y2="-1"/>
     <WIRE id="58" x1="85" y1="-2" x2="85" y2="-1"/>
-    <WIRE id="59" x1="85" y1="3" x2="85" y2="5"/>
-    <WIRE id="60" x1="89" y1="3" x2="89" y2="5"/>
-    <WIRE id="61" x1="89" y1="9" x2="89" y2="11"/>
     <WIRE id="62" x1="87" y1="-11" x2="87" y2="-9"/>
     <WIRE id="65" x1="70" y1="-17" x2="70" y2="-18"/>
     <WIRE id="66" x1="13" y1="-18" x2="71" y2="-18"/>
@@ -534,5 +527,9 @@
     <WIRE id="297" x1="191" y1="-12" x2="191" y2="-10"/>
     <WIRE id="303" x1="146" y1="12" x2="147" y2="12"/>
     <WIRE id="304" x1="143" y1="18" x2="147" y2="18"/>
+    <WIRE id="305" x1="85" y1="3" x2="85" y2="4"/>
+    <WIRE id="306" x1="85" y1="4" x2="89" y2="4"/>
+    <WIRE id="307" x1="89" y1="4" x2="89" y2="3"/>
+    <WIRE id="308" x1="87" y1="4" x2="87" y2="5"/>
   </SCHEMATIC>
 </CELINESCHEMATIC>

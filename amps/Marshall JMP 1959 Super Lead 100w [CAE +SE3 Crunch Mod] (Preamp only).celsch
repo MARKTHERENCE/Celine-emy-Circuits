@@ -15,9 +15,9 @@
     <PARAM id="knob16" value="0.5"/>
     <PARAM id="knob2" value="0.5"/>
     <PARAM id="knob3" value="0.5"/>
-    <PARAM id="knob4" value="0.0"/>
-    <PARAM id="knob5" value="0.5"/>
-    <PARAM id="knob6" value="0.0"/>
+    <PARAM id="knob4" value="0.5"/>
+    <PARAM id="knob5" value="0.0"/>
+    <PARAM id="knob6" value="0.5"/>
     <PARAM id="knob7" value="0.5"/>
     <PARAM id="knob8" value="0.0"/>
     <PARAM id="knob9" value="0.5"/>
@@ -52,12 +52,12 @@
     <ELEMENT id="13" type="4" x="24" y="-10" orientation="1" mirrored="0"
              value="2.2e-10" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="14" type="6" x="27" y="2" orientation="0" mirrored="0" value="1.0e6"
-             controlOrder="6" label="Volume" taper="1" polarised="0" closed="1"
+             controlOrder="5" label="Volume" taper="1" polarised="0" closed="1"
              controlPosition="0.5"/>
     <ELEMENT id="15" type="4" x="30" y="-4" orientation="1" mirrored="1" value="2.2e-10"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="16" type="7" x="33" y="-1" orientation="2" mirrored="1" value="0.0"
-             controlOrder="5" label="Bright" taper="0" polarised="0" closed="0"/>
+             controlOrder="4" label="Bright" taper="0" polarised="0" closed="0"/>
     <ELEMENT id="17" type="0" x="27" y="8" orientation="0" mirrored="1" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="18" type="11" x="37" y="2" orientation="0" mirrored="0" value="0.0"
@@ -86,13 +86,9 @@
              polarised="0" closed="1"/>
     <ELEMENT id="29" type="3" x="53" y="5" orientation="0" mirrored="1" value="1000.0"
              label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="30" type="7" x="57" y="11" orientation="0" mirrored="1" value="0.0"
-             controlOrder="3" label="Open" taper="0" polarised="0" closed="0"/>
-    <ELEMENT id="31" type="0" x="53" y="11" orientation="0" mirrored="1" value="0.0"
-             label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="33" type="4" x="57" y="5" orientation="0" mirrored="1" value="1.0e-6"
              label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="34" type="0" x="57" y="17" orientation="0" mirrored="1" value="0.0"
+    <ELEMENT id="34" type="0" x="55" y="11" orientation="0" mirrored="1" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="35" type="3" x="55" y="-9" orientation="0" mirrored="1" value="100000.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -146,13 +142,13 @@
     <ELEMENT id="59" type="3" x="85" y="-6" orientation="1" mirrored="1" value="332000.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="60" type="6" x="88" y="-3" orientation="0" mirrored="0" value="220000.0"
-             controlOrder="4" label="Master" taper="1" polarised="0" closed="1"
+             controlOrder="3" label="Master" taper="1" polarised="0" closed="1"
              controlPosition="0.5"/>
     <ELEMENT id="61" type="0" x="88" y="3" orientation="0" mirrored="1" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="62" type="2" x="95" y="-3" orientation="2" mirrored="1" value="0.0"
              label="" taper="0" polarised="0" closed="1" cab="0" cabFile=""/>
-    <ELEMENT id="63" type="3" x="92" y="0" orientation="2" mirrored="1" value="7200.0"
+    <ELEMENT id="63" type="3" x="92" y="0" orientation="2" mirrored="1" value="7100.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="64" type="0" x="92" y="6" orientation="0" mirrored="1" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -225,9 +221,6 @@
     <WIRE id="55" x1="53" y1="2" x2="57" y2="2"/>
     <WIRE id="56" x1="57" y1="2" x2="57" y2="3"/>
     <WIRE id="58" x1="53" y1="2" x2="53" y2="3"/>
-    <WIRE id="59" x1="53" y1="7" x2="53" y2="9"/>
-    <WIRE id="60" x1="57" y1="7" x2="57" y2="9"/>
-    <WIRE id="61" x1="57" y1="13" x2="57" y2="15"/>
     <WIRE id="62" x1="55" y1="-7" x2="55" y2="-5"/>
     <WIRE id="65" x1="42" y1="-17" x2="42" y2="-18"/>
     <WIRE id="66" x1="13" y1="-18" x2="43" y2="-18"/>
@@ -280,5 +273,9 @@
     <WIRE id="129" x1="90" y1="-18" x2="90" y2="-17"/>
     <WIRE id="130" x1="86" y1="-18" x2="86" y2="-17"/>
     <WIRE id="131" x1="82" y1="-18" x2="82" y2="-17"/>
+    <WIRE id="132" x1="53" y1="7" x2="53" y2="8"/>
+    <WIRE id="133" x1="53" y1="8" x2="57" y2="8"/>
+    <WIRE id="134" x1="57" y1="8" x2="57" y2="7"/>
+    <WIRE id="135" x1="55" y1="8" x2="55" y2="9"/>
   </SCHEMATIC>
 </CELINESCHEMATIC>
