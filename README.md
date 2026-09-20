@@ -22,6 +22,8 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
  - ## Guitar and Bass Amps
    - Ampeg VH-140C (Preamp only)
    - Kitty Hawk Junior Series I
+   - Marshall 1987x Lead Reissue w/ Jose Arredondo Style-mods
+     - Based on [fusedbrain's schematic diagram @ Rig-Talk]( https://www.rig-talk.com/forum/threads/schematic-for-jose-build.201708/page-2#post-2246543 )
    - Marshall JMP 1959 Super Lead 100w, incl.
      - Mk2 version
      - CAE +SE3 Crunch and Lead mods
