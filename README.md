@@ -31,6 +31,7 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
    - Marshall Silver Jubilee 2550 & 2555
    - Orange Rockerverb 50w
    - Orange Thunderverb 50w
+   - Vox UL730
   
 ## Special Thanks
   - stratürkoise for letting me know that this project exists.
