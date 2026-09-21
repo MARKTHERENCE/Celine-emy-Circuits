@@ -32,6 +32,7 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
    - Orange Rockerverb 50w
    - Orange Thunderverb 50w
    - Vox UL730
+   - Vox UL7120
   
 ## Special Thanks
   - stratürkoise for letting me know that this project exists.
