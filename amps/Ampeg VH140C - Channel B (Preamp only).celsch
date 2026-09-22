@@ -41,7 +41,7 @@
     <ELEMENT id="13" type="0" x="18" y="9" orientation="0" mirrored="0" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="15" type="12" x="25" y="0" orientation="0" mirrored="0" value="15.0"
-             modelId="celine:opamp-jrc4558" label="" taper="0" polarised="0"
+             modelId="celine:opamp-ideal" label="" taper="0" polarised="0"
              closed="1"/>
     <ELEMENT id="16" type="3" x="25" y="6" orientation="1" mirrored="0" value="7500.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -199,6 +199,10 @@
              value="1.0e-7" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="151" type="0" x="153" y="39" orientation="0" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="152" type="3" x="15" y="3" orientation="0" mirrored="0" value="270000.0"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="153" type="0" x="15" y="9" orientation="0" mirrored="0" value="0.0"
+             label="" taper="0" polarised="0" closed="1"/>
     <WIRE id="1" x1="2" y1="0" x2="4" y2="0"/>
     <WIRE id="5" x1="8" y1="0" x2="10" y2="0"/>
     <WIRE id="9" x1="9" y1="5" x2="9" y2="7"/>
@@ -330,5 +334,7 @@
     <WIRE id="324" x1="155" y1="32" x2="155" y2="35"/>
     <WIRE id="325" x1="155" y1="35" x2="165" y2="35"/>
     <WIRE id="326" x1="165" y1="35" x2="165" y2="30"/>
+    <WIRE id="327" x1="15" y1="0" x2="15" y2="1"/>
+    <WIRE id="328" x1="15" y1="5" x2="15" y2="7"/>
   </SCHEMATIC>
 </CELINESCHEMATIC>
