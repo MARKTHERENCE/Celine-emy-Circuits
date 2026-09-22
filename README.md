@@ -36,8 +36,8 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
    - Vox UL730
    - Vox UL7120
      - Biasing for the power tubes are dependent on whether either preamp or poweramp sections are combined or isolated:
-       - Preamp only: Output bias from the EL84 "floating paraphrase phase inverters" is a 100k Ohm resistor wired to -80V.
-       - Complete circuit/Poweramp only: Output bias from the EL84 "floating paraphrase phase inverters" is fixed - a 560 Ohm resistor wired to ground.
+       - _Preamp only:_ Output bias from the EL84 "floating paraphrase phase inverters" is a 100k Ohm resistor wired to -80V.
+       - _Complete circuit/Poweramp only:_ Output bias from the EL84 "floating paraphrase phase inverters" is fixed - a 560 Ohm resistor wired to ground.
   
 ## Special Thanks
   - stratürkoise for letting me know that this project exists.
