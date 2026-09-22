@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<CELINESCHEMATIC celineVersion="1.0.0">
+<CELINESCHEMATIC celineVersion="1.0.0" oversampling="4">
   <PARAMETERS>
     <PARAM id="bypass" value="0.0"/>
     <PARAM id="channels" value="3.0"/>
@@ -37,7 +37,7 @@
     <ELEMENT id="8" type="3" x="12" y="0" orientation="1" mirrored="0" value="2200.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="9" type="12" x="22" y="0" orientation="0" mirrored="0" value="15.0"
-             modelId="celine:opamp-tl072" label="" taper="0" polarised="0"
+             modelId="celine:opamp-ideal" label="" taper="0" polarised="0"
              closed="1"/>
     <ELEMENT id="10" type="3" x="22" y="6" orientation="1" mirrored="0" value="2200.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -255,6 +255,10 @@
              label="" taper="0" polarised="1" closed="1"/>
     <ELEMENT id="196" type="0" x="101" y="18" orientation="0" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="199" type="3" x="9" y="3" orientation="0" mirrored="0" value="1.0e6"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="200" type="0" x="9" y="9" orientation="0" mirrored="0" value="0.0"
+             label="" taper="0" polarised="0" closed="1"/>
     <WIRE id="1" x1="2" y1="0" x2="4" y2="0"/>
     <WIRE id="2" x1="3" y1="0" x2="3" y2="3"/>
     <WIRE id="3" x1="1" y1="4" x2="1" y2="3"/>
@@ -455,5 +459,7 @@
     <WIRE id="357" x1="100" y1="9" x2="101" y2="9"/>
     <WIRE id="358" x1="101" y1="14" x2="101" y2="16"/>
     <WIRE id="359" x1="104" y1="12" x2="106" y2="12"/>
+    <WIRE id="362" x1="9" y1="0" x2="9" y2="1"/>
+    <WIRE id="363" x1="9" y1="5" x2="9" y2="7"/>
   </SCHEMATIC>
 </CELINESCHEMATIC>

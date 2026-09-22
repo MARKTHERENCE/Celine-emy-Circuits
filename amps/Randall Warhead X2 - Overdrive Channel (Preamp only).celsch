@@ -37,7 +37,7 @@
     <ELEMENT id="8" type="3" x="12" y="0" orientation="1" mirrored="0" value="2200.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="9" type="12" x="22" y="0" orientation="0" mirrored="0" value="15.0"
-             modelId="celine:opamp-tl072" label="" taper="0" polarised="0"
+             modelId="celine:opamp-ideal" label="" taper="0" polarised="0"
              closed="1"/>
     <ELEMENT id="10" type="3" x="22" y="6" orientation="1" mirrored="0" value="2200.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -62,7 +62,7 @@
     <ELEMENT id="20" type="3" x="42" y="0" orientation="1" mirrored="0" value="2200.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="21" type="15" x="48" y="0" orientation="0" mirrored="0" value="0.0"
-             modelId="celine:jfet-2n5485" label="" taper="0" polarised="0"
+             modelId="celine:jfet-2n5457" label="" taper="0" polarised="0"
              closed="1"/>
     <ELEMENT id="22" type="3" x="50" y="6" orientation="0" mirrored="0" value="2200.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -97,7 +97,7 @@
     <ELEMENT id="41" type="3" x="80" y="-3" orientation="1" mirrored="0" value="2200.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="42" type="15" x="86" y="-3" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:jfet-2n5485" label="" taper="0" polarised="0"
+             value="0.0" modelId="celine:jfet-2n5457" label="" taper="0" polarised="0"
              closed="1"/>
     <ELEMENT id="43" type="3" x="88" y="3" orientation="0" mirrored="0" value="2200.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -122,7 +122,7 @@
     <ELEMENT id="53" type="4" x="105" y="-6" orientation="0" mirrored="0"
              value="4.7e-11" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="54" type="15" x="108" y="-3" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:jfet-2n5485" label="" taper="0" polarised="0"
+             value="0.0" modelId="celine:jfet-2n5457" label="" taper="0" polarised="0"
              closed="1"/>
     <ELEMENT id="55" type="3" x="110" y="3" orientation="0" mirrored="0" value="2200.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -133,7 +133,7 @@
     <ELEMENT id="58" type="4" x="106" y="3" orientation="0" mirrored="0" value="6.800000000000001e-7"
              label="" taper="0" polarised="1" closed="1"/>
     <ELEMENT id="59" type="15" x="116" y="-6" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:jfet-2n5485" label="" taper="0" polarised="0"
+             value="0.0" modelId="celine:jfet-2n5457" label="" taper="0" polarised="0"
              closed="1"/>
     <ELEMENT id="60" type="3" x="118" y="0" orientation="0" mirrored="0" value="4700.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -343,6 +343,10 @@
     <ELEMENT id="169" type="18" x="61" y="19" orientation="0" mirrored="0"
              value="0.0" label="https://www.rig-talk.com/forum/threads/i-need-tips-on-finding-bad-soldering-joints-warhead-x2-schematics-fo.9734/post-192826"
              taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="170" type="3" x="9" y="3" orientation="0" mirrored="0" value="1.0e6"
+             label="" taper="0" polarised="0" closed="1"/>
+    <ELEMENT id="171" type="0" x="9" y="9" orientation="0" mirrored="0" value="0.0"
+             label="" taper="0" polarised="0" closed="1"/>
     <WIRE id="1" x1="2" y1="0" x2="4" y2="0"/>
     <WIRE id="2" x1="3" y1="0" x2="3" y2="3"/>
     <WIRE id="3" x1="1" y1="4" x2="1" y2="3"/>
@@ -596,5 +600,7 @@
     <WIRE id="308" x1="160" y1="49" x2="160" y2="50"/>
     <WIRE id="309" x1="160" y1="54" x2="160" y2="56"/>
     <WIRE id="310" x1="30" y1="51" x2="30" y2="53"/>
+    <WIRE id="311" x1="9" y1="0" x2="9" y2="1"/>
+    <WIRE id="312" x1="9" y1="5" x2="9" y2="7"/>
   </SCHEMATIC>
 </CELINESCHEMATIC>
