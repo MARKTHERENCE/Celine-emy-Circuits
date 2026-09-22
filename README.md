@@ -21,6 +21,7 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
 
  - ## Guitar and Bass Amps
    - Ampeg VH-140C (Preamp only)
+     - Does not seem to work well with JRC4558, so all op-amp models are Ideal components. 
    - Kitty Hawk Junior Series I
    - Marshall 1987x Lead Reissue w/ Jose Arredondo Style-mods
      - Based on [fusedbrain's schematic diagram @ Rig-Talk]( https://www.rig-talk.com/forum/threads/schematic-for-jose-build.201708/page-2#post-2246543 )
@@ -31,7 +32,7 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
    - Marshall Silver Jubilee 2550 & 2555
    - Orange Rockerverb 50w
    - Orange Thunderverb 50w
-   - Randall Warhead X2
+   - Randall Warhead X2 (Preamp only)
    - Vox UL730
    - Vox UL7120
      - Biasing for the power tubes are dependent on whether either preamp or poweramp sections are combined or isolated:
