@@ -29,6 +29,7 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
      - Mk2 version
      - CAE +SE3 Crunch and Lead mods
    - Marshall JMP 1987 Lead 50w, incl. Mk2
+   - Marshall MS-2 Style Preamp
    - Marshall Silver Jubilee 2550 & 2555
    - Orange Rockerverb 50w
    - Orange Thunderverb 50w
