@@ -22,8 +22,9 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
 
  - ## Guitar and Bass Amps
    - Ampeg VH-140C (Preamp only)
-     - Does not function as intended with JRC4558's, so all op-amp stages except the first one are Ideal op-amps instead.
-     - Removed the 270k resistor that was wired to ground from the input signal for the gain structure to be correct.
+     - Does not function as intended with JRC4558's, so one is used as a buffer and all the other op-amp stages Ideal parts instead.
+   - Fender M-80 (Preamp only)
+     - Does not function as intended with TL072's, so one is used as a buffer and all the other op-amp stages Ideal parts instead.
    - Kitty Hawk Junior Series I
    - Marshall 1987x Lead Reissue w/ Jose Arredondo Style-mods
      - Based on [fusedbrain's schematic diagram @ Rig-Talk]( https://www.rig-talk.com/forum/threads/schematic-for-jose-build.201708/page-2#post-2246543 )
@@ -37,9 +38,7 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
    - Orange Rockerverb 50w
    - Orange Thunderverb 50w
    - Randall Warhead X2 (Preamp only)
-     - Does not function as intended with TL072's, so all op-amp stages except the first one are Ideal op-amps instead.
-     - Removed the 1M resistor that was wired to ground from the input signal for the intended gain structure
-       - In addition to this, the first op-amp stage uses a NE5332 instead of a TL071/072, as the latter does not result in high gain.
+     - Does not function as intended with TL072's, so one is used as a buffer and all the other op-amp stages Ideal parts instead.
    - Vox UL730
    - Vox UL7120
      - Biasing for the power tubes are dependent on whether either preamp or poweramp sections are combined or isolated:
