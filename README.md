@@ -17,11 +17,13 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
    - K-MD1 Mio Driver
    - K-YD1 Yui Driver
    - MSA Steel Pedal Fuzz
+   - UMI Buzz Tone & Volume Expander
    - Xotic EP Booster
 
  - ## Guitar and Bass Amps
    - Ampeg VH-140C (Preamp only)
-     - Does not seem to work well with JRC4558's, so all op-amp models are Ideal components. 
+     - Does not function as intended with JRC4558's, so all op-amp stages except the first one are Ideal op-amps instead.
+     - Removed the 270k resistor that was wired to ground from the input signal for the gain structure to be correct.
    - Kitty Hawk Junior Series I
    - Marshall 1987x Lead Reissue w/ Jose Arredondo Style-mods
      - Based on [fusedbrain's schematic diagram @ Rig-Talk]( https://www.rig-talk.com/forum/threads/schematic-for-jose-build.201708/page-2#post-2246543 )
@@ -34,8 +36,9 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
    - Orange Rockerverb 50w
    - Orange Thunderverb 50w
    - Randall Warhead X2 (Preamp only)
-     - Does not seem to work well with TL072's, so all op-amp models are Ideal components.
-     - 2N5484's are substituted with 2N5457's.
+     - Does not function as intended with TL072's, so all op-amp stages except the first one are Ideal op-amps instead.
+     - Removed the 1M resistor that was wired to ground from the input signal for the intended gain structure
+       - In addition to this, the first op-amp stage uses a NE5332 instead of a TL071/072, as the latter does not result in high gain.
    - Vox UL730
    - Vox UL7120
      - Biasing for the power tubes are dependent on whether either preamp or poweramp sections are combined or isolated:
