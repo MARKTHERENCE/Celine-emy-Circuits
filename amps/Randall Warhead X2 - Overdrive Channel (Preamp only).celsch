@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<CELINESCHEMATIC celineVersion="1.0.0">
+<CELINESCHEMATIC celineVersion="1.1.1">
   <PARAMETERS>
     <PARAM id="bypass" value="0.0"/>
     <PARAM id="channels" value="3.0"/>
@@ -37,7 +37,7 @@
     <ELEMENT id="8" type="3" x="12" y="0" orientation="1" mirrored="0" value="2200.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="9" type="12" x="22" y="0" orientation="0" mirrored="0" value="15.0"
-             modelId="celine:opamp-ideal" label="" taper="0" polarised="0"
+             modelId="celine:opamp-ne5532" label="" taper="0" polarised="0"
              closed="1"/>
     <ELEMENT id="10" type="3" x="22" y="6" orientation="1" mirrored="0" value="2200.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -343,10 +343,6 @@
     <ELEMENT id="169" type="18" x="61" y="19" orientation="0" mirrored="0"
              value="0.0" label="https://www.rig-talk.com/forum/threads/i-need-tips-on-finding-bad-soldering-joints-warhead-x2-schematics-fo.9734/post-192826"
              taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="170" type="3" x="9" y="3" orientation="0" mirrored="0" value="1.0e6"
-             label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="171" type="0" x="9" y="9" orientation="0" mirrored="0" value="0.0"
-             label="" taper="0" polarised="0" closed="1"/>
     <WIRE id="1" x1="2" y1="0" x2="4" y2="0"/>
     <WIRE id="2" x1="3" y1="0" x2="3" y2="3"/>
     <WIRE id="3" x1="1" y1="4" x2="1" y2="3"/>
@@ -600,7 +596,5 @@
     <WIRE id="308" x1="160" y1="49" x2="160" y2="50"/>
     <WIRE id="309" x1="160" y1="54" x2="160" y2="56"/>
     <WIRE id="310" x1="30" y1="51" x2="30" y2="53"/>
-    <WIRE id="311" x1="9" y1="0" x2="9" y2="1"/>
-    <WIRE id="312" x1="9" y1="5" x2="9" y2="7"/>
   </SCHEMATIC>
 </CELINESCHEMATIC>
