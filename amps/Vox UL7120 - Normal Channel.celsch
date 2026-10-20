@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<CELINESCHEMATIC celineVersion="1.0.0">
+<CELINESCHEMATIC celineVersion="1.2.0">
   <PARAMETERS>
     <PARAM id="bypass" value="0.0"/>
     <PARAM id="channels" value="3.0"/>
@@ -261,10 +261,10 @@
     <ELEMENT id="205" type="3" x="158" y="-31" orientation="0" mirrored="0"
              value="560.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="211" type="17" x="171" y="-21" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:pentode-kt77-jj" label="" taper="0"
+             value="0.0" modelId="celine:pentode-kt88-jj" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="212" type="17" x="171" y="-38" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:pentode-kt77-jj" label="" taper="0"
+             value="0.0" modelId="celine:pentode-kt88-jj" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="213" type="3" x="164" y="-37" orientation="1" mirrored="0"
              value="10000.0" label="" taper="0" polarised="0" closed="1"/>
@@ -275,10 +275,10 @@
     <ELEMENT id="216" type="3" x="177" y="-17" orientation="1" mirrored="0"
              value="330.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="217" type="17" x="171" y="-1" orientation="2" mirrored="1"
-             value="0.0" modelId="celine:pentode-kt77-jj" label="" taper="0"
+             value="0.0" modelId="celine:pentode-kt88-jj" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="218" type="17" x="171" y="16" orientation="2" mirrored="1"
-             value="0.0" modelId="celine:pentode-kt77-jj" label="" taper="0"
+             value="0.0" modelId="celine:pentode-kt88-jj" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="219" type="3" x="171" y="-31" orientation="2" mirrored="0"
              value="10.0" label="" taper="0" polarised="0" closed="1"/>
@@ -333,7 +333,7 @@
              value="0.0" label="" taper="0" polarised="0" closed="1" cab="0"
              cabFile=""/>
     <ELEMENT id="245" type="3" x="206" y="-11" orientation="0" mirrored="0"
-             value="3.15" label="" taper="0" polarised="0" closed="1"/>
+             value="3.4" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="246" type="0" x="206" y="-5" orientation="0" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="247" type="0" x="158" y="15" orientation="0" mirrored="0"

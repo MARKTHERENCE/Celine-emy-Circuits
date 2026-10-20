@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<CELINESCHEMATIC celineVersion="1.0.0">
+<CELINESCHEMATIC celineVersion="1.2.0">
   <PARAMETERS>
     <PARAM id="bypass" value="0.0"/>
     <PARAM id="channels" value="3.0"/>
@@ -309,7 +309,7 @@
     <ELEMENT id="192" type="3" x="199" y="-23" orientation="3" mirrored="0"
              value="10000.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="193" type="17" x="206" y="-24" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:pentode-kt77-jj" label="" taper="0"
+             value="0.0" modelId="celine:pentode-kt88-jj" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="194" type="3" x="212" y="-20" orientation="1" mirrored="0"
              value="330.0" label="" taper="0" polarised="0" closed="1"/>
@@ -318,7 +318,7 @@
     <ELEMENT id="196" type="0" x="203" y="-14" orientation="1" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="197" type="17" x="206" y="-4" orientation="2" mirrored="1"
-             value="0.0" modelId="celine:pentode-kt77-jj" label="" taper="0"
+             value="0.0" modelId="celine:pentode-kt88-jj" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="198" type="3" x="199" y="-5" orientation="1" mirrored="0"
              value="10000.0" label="" taper="0" polarised="0" closed="1"/>
@@ -327,7 +327,7 @@
     <ELEMENT id="200" type="3" x="206" y="-11" orientation="0" mirrored="0"
              value="10.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="201" type="17" x="206" y="-41" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:pentode-kt77-jj" label="" taper="0"
+             value="0.0" modelId="celine:pentode-kt88-jj" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="202" type="3" x="206" y="-34" orientation="0" mirrored="0"
              value="10.0" label="" taper="0" polarised="0" closed="1"/>
@@ -342,7 +342,7 @@
     <ELEMENT id="207" type="0" x="193" y="-40" orientation="2" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="208" type="17" x="206" y="13" orientation="2" mirrored="1"
-             value="0.0" modelId="celine:pentode-kt77-jj" label="" taper="0"
+             value="0.0" modelId="celine:pentode-kt88-jj" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="209" type="3" x="199" y="12" orientation="1" mirrored="0"
              value="10000.0" label="" taper="0" polarised="0" closed="1"/>
@@ -380,7 +380,7 @@
     <ELEMENT id="226" type="3" x="240" y="-14" orientation="0" mirrored="0"
              value="15.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="227" type="3" x="244" y="-14" orientation="0" mirrored="0"
-             value="6.1" label="" taper="0" polarised="0" closed="1"/>
+             value="7.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="228" type="0" x="244" y="-8" orientation="0" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="229" type="0" x="240" y="-8" orientation="0" mirrored="0"

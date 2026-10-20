@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<CELINESCHEMATIC celineVersion="1.0.0">
+<CELINESCHEMATIC celineVersion="1.2.0">
   <PARAMETERS>
     <PARAM id="bypass" value="0.0"/>
     <PARAM id="channels" value="3.0"/>
@@ -21,7 +21,7 @@
     <PARAM id="knob7" value="0.0"/>
     <PARAM id="knob8" value="0.5"/>
     <PARAM id="knob9" value="0.5"/>
-    <PARAM id="output" value="-3.5"/>
+    <PARAM id="output" value="-3.200000762939453"/>
   </PARAMETERS>
   <SCHEMATIC>
     <ELEMENT id="1" type="1" x="0" y="0" orientation="0" mirrored="0" value="0.0"
@@ -128,10 +128,10 @@
     <ELEMENT id="205" type="3" x="66" y="-34" orientation="0" mirrored="0"
              value="560.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="211" type="17" x="79" y="-24" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:pentode-kt77-jj" label="" taper="0"
+             value="0.0" modelId="celine:pentode-kt88-jj" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="212" type="17" x="79" y="-41" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:pentode-kt77-jj" label="" taper="0"
+             value="0.0" modelId="celine:pentode-kt88-jj" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="213" type="3" x="72" y="-40" orientation="1" mirrored="0"
              value="10000.0" label="" taper="0" polarised="0" closed="1"/>
@@ -142,10 +142,10 @@
     <ELEMENT id="216" type="3" x="85" y="-20" orientation="1" mirrored="0"
              value="330.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="217" type="17" x="79" y="-4" orientation="2" mirrored="1"
-             value="0.0" modelId="celine:pentode-kt77-jj" label="" taper="0"
+             value="0.0" modelId="celine:pentode-kt88-jj" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="218" type="17" x="79" y="13" orientation="2" mirrored="1"
-             value="0.0" modelId="celine:pentode-kt77-jj" label="" taper="0"
+             value="0.0" modelId="celine:pentode-kt88-jj" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="219" type="3" x="79" y="-34" orientation="2" mirrored="0"
              value="10.0" label="" taper="0" polarised="0" closed="1"/>
