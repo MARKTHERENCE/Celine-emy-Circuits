@@ -3,6 +3,9 @@
 
 Schematic files drawn for use with [Céline]( https://celine-audio.github.io/CelineWebsite/ ), developed by Céline Audio ([@Celine-audio]( https://github.com/Celine-audio )).
 
+## IMPORTANT!
+ - This applies to op-amp-based circuits - the schematic files are deliberately not optimized due to the usage of real op-amp models. Replace them with Ideal models for lesser CPU usage.
+
 # List of Circuits
 Circuits of various guitar/bass amps and FX pedals. This list may expand over time.
 
@@ -35,8 +38,8 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
    - Marshall Silver Jubilee 2550 & 2555
    - Orange Rockerverb 50w
    - Orange Thunderverb 50w
+   - Randall RG100 (Preamp only)
    - Randall Warhead X2 (Preamp only)
-     - Too CPU intensive to use in real-time. It's a very complex circuit as it is already, but changing the TL072's to Ideal op-amps could help.
    - Vox UL730
    - Vox UL7120
      - Biasing for the power tubes are dependent on whether either preamp or poweramp sections are combined or isolated:
