@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<CELINESCHEMATIC celineVersion="1.1.1">
+<CELINESCHEMATIC celineVersion="1.3.0">
   <PARAMETERS>
     <PARAM id="bypass" value="0.0"/>
     <PARAM id="channels" value="3.0"/>
@@ -21,7 +21,7 @@
     <PARAM id="knob7" value="0.5"/>
     <PARAM id="knob8" value="0.5"/>
     <PARAM id="knob9" value="0.5"/>
-    <PARAM id="output" value="0.0"/>
+    <PARAM id="output" value="-8.0"/>
   </PARAMETERS>
   <SCHEMATIC>
     <ELEMENT id="1" type="1" x="0" y="0" orientation="0" mirrored="0" value="0.0"
@@ -39,11 +39,11 @@
     <ELEMENT id="7" type="3" x="21" y="3" orientation="0" mirrored="0" value="5100.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="8" type="12" x="67" y="0" orientation="0" mirrored="0" value="16.0"
-             modelId="celine:opamp-tl072" label="" taper="0" polarised="0"
-             closed="1"/>
+             valueB="-16.0" modelId="celine:opamp-tl072" label="" taper="0"
+             polarised="0" closed="1"/>
     <ELEMENT id="9" type="3" x="21" y="11" orientation="0" mirrored="0" value="6800.0"
              label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="10" type="0" x="58" y="21" orientation="0" mirrored="0" value="0.0"
+    <ELEMENT id="10" type="0" x="58" y="15" orientation="0" mirrored="0" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="12" type="3" x="29" y="0" orientation="1" mirrored="0" value="15000.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -67,11 +67,11 @@
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="23" type="0" x="52" y="15" orientation="0" mirrored="0" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="24" type="0" x="15" y="21" orientation="0" mirrored="0" value="0.0"
+    <ELEMENT id="24" type="0" x="15" y="15" orientation="0" mirrored="0" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="25" type="12" x="29" y="6" orientation="0" mirrored="0" value="16.0"
-             modelId="celine:opamp-tl072" label="" taper="0" polarised="0"
-             closed="1"/>
+             valueB="-16.0" modelId="celine:opamp-tl072" label="" taper="0"
+             polarised="0" closed="1"/>
     <ELEMENT id="26" type="4" x="67" y="6" orientation="1" mirrored="0" value="4.7e-10"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="27" type="3" x="61" y="15" orientation="2" mirrored="0" value="3300.0"
@@ -88,8 +88,8 @@
     <ELEMENT id="32" type="3" x="84" y="12" orientation="3" mirrored="0" value="3300.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="33" type="12" x="94" y="12" orientation="0" mirrored="0"
-             value="16.0" modelId="celine:opamp-ideal" label="" taper="0"
-             polarised="0" closed="1"/>
+             value="16.0" valueB="-16.0" modelId="celine:opamp-tl072" label=""
+             taper="0" polarised="0" closed="1"/>
     <ELEMENT id="34" type="0" x="88" y="6" orientation="2" mirrored="0" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="35" type="3" x="91" y="20" orientation="3" mirrored="0" value="470000.0"
@@ -141,14 +141,10 @@
              value="1.5e-9" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="57" type="0" x="121" y="36" orientation="0" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="75" type="3" x="178" y="27" orientation="2" mirrored="0"
-             value="285.0" label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="76" type="0" x="178" y="33" orientation="0" mirrored="0"
-             value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="77" type="2" x="181" y="24" orientation="0" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1" cab="0"
              cabFile=""/>
-    <ELEMENT id="79" type="0" x="21" y="23" orientation="0" mirrored="0" value="0.0"
+    <ELEMENT id="79" type="0" x="21" y="17" orientation="0" mirrored="0" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="82" type="18" x="13" y="-5" orientation="3" mirrored="0"
              value="0.0" label="Fender M-80 / Overdrive Channel (Preamp only)"
@@ -156,15 +152,9 @@
     <ELEMENT id="83" type="18" x="16" y="-3" orientation="0" mirrored="0"
              value="0.0" label="https://www.freestompboxes.org/viewtopic.php?t=28283"
              taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="85" type="8" x="15" y="15" orientation="0" mirrored="0" value="8.0"
-             label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="86" type="8" x="21" y="17" orientation="0" mirrored="0" value="8.0"
-             label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="87" type="8" x="58" y="15" orientation="0" mirrored="0" value="8.0"
-             label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="88" type="12" x="137" y="24" orientation="0" mirrored="0"
-             value="16.0" modelId="celine:opamp-ideal" label="" taper="0"
-             polarised="0" closed="1"/>
+             value="16.0" valueB="-16.0" modelId="celine:opamp-tl072" label=""
+             taper="0" polarised="0" closed="1"/>
     <ELEMENT id="89" type="3" x="137" y="36" orientation="1" mirrored="0"
              value="180000.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="90" type="4" x="137" y="30" orientation="1" mirrored="0"
@@ -176,8 +166,8 @@
     <ELEMENT id="93" type="3" x="151" y="24" orientation="3" mirrored="0"
              value="220000.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="94" type="12" x="161" y="24" orientation="0" mirrored="0"
-             value="16.0" modelId="celine:opamp-ideal" label="" taper="0"
-             polarised="0" closed="1"/>
+             value="16.0" valueB="-16.0" modelId="celine:opamp-tl072" label=""
+             taper="0" polarised="0" closed="1"/>
     <ELEMENT id="95" type="0" x="155" y="18" orientation="2" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="96" type="3" x="161" y="36" orientation="1" mirrored="0"
@@ -273,16 +263,11 @@
     <WIRE id="97" x1="125" y1="15" x2="125" y2="16"/>
     <WIRE id="98" x1="125" y1="20" x2="125" y2="24"/>
     <WIRE id="136" x1="130" y1="24" x2="132" y2="24"/>
-    <WIRE id="137" x1="178" y1="24" x2="178" y2="25"/>
-    <WIRE id="138" x1="178" y1="29" x2="178" y2="31"/>
     <WIRE id="147" x1="2" y1="0" x2="4" y2="0"/>
     <WIRE id="160" x1="31" y1="0" x2="34" y2="0"/>
     <WIRE id="162" x1="54" y1="0" x2="60" y2="0"/>
     <WIRE id="163" x1="20" y1="0" x2="27" y2="0"/>
     <WIRE id="166" x1="15" y1="6" x2="23" y2="6"/>
-    <WIRE id="167" x1="15" y1="17" x2="15" y2="19"/>
-    <WIRE id="168" x1="21" y1="19" x2="21" y2="21"/>
-    <WIRE id="169" x1="58" y1="17" x2="58" y2="19"/>
     <WIRE id="171" x1="132" y1="24" x2="132" y2="36"/>
     <WIRE id="173" x1="131" y1="22" x2="133" y2="22"/>
     <WIRE id="174" x1="133" y1="26" x2="132" y2="26"/>
