@@ -39,6 +39,8 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
    - Orange Rockerverb 50w
    - Orange Thunderverb 50w
    - Randall RG100 (Preamp only)
+   - Randall RGT100
+     - Only Channel 2 is included as of 11/10/2026 because it is used for a bug report. The Zener diodes between the cathode follower and tonestack seem to result in unstable simulation behavior.
    - Randall Warhead X2 (Preamp only)
    - Vox UL730
    - Vox UL7120
