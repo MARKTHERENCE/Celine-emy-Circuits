@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<CELINESCHEMATIC celineVersion="1.0.0">
+<CELINESCHEMATIC celineVersion="1.3.0">
   <PARAMETERS>
     <PARAM id="bypass" value="0.0"/>
     <PARAM id="channels" value="3.0"/>
@@ -21,7 +21,7 @@
     <PARAM id="knob7" value="0.5"/>
     <PARAM id="knob8" value="0.0"/>
     <PARAM id="knob9" value="0.5"/>
-    <PARAM id="output" value="0.0"/>
+    <PARAM id="output" value="-10.89999961853027"/>
   </PARAMETERS>
   <SCHEMATIC>
     <ELEMENT id="1" type="1" x="0" y="0" orientation="0" mirrored="0" value="0.0"
@@ -61,7 +61,7 @@
     <ELEMENT id="17" type="0" x="27" y="8" orientation="0" mirrored="1" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="18" type="11" x="43" y="2" orientation="0" mirrored="0" value="0.0"
-             modelId="celine:triode-12ax7-ehx" label="" taper="0" polarised="0"
+             modelId="celine:triode-12ax7-rsd" label="" taper="0" polarised="0"
              closed="1"/>
     <ELEMENT id="22" type="3" x="45" y="-5" orientation="0" mirrored="1" value="221000.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -76,7 +76,7 @@
     <ELEMENT id="27" type="0" x="57" y="7" orientation="0" mirrored="1" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="28" type="11" x="87" y="-6" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:triode-12ax7-ehx" label="" taper="0"
+             value="0.0" modelId="celine:triode-12ax7-rsd" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="29" type="3" x="85" y="1" orientation="0" mirrored="1" value="1000.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -95,7 +95,7 @@
     <ELEMENT id="40" type="0" x="124" y="-11" orientation="0" mirrored="1"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="41" type="11" x="94" y="-10" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:triode-12ax7-ehx" label="" taper="0"
+             value="0.0" modelId="celine:triode-12ax7-rsd" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="42" type="3" x="94" y="-3" orientation="0" mirrored="1" value="100000.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -142,10 +142,6 @@
     <ELEMENT id="62" type="2" x="127" y="-7" orientation="2" mirrored="1"
              value="0.0" label="" taper="0" polarised="0" closed="1" cab="0"
              cabFile=""/>
-    <ELEMENT id="63" type="3" x="124" y="-4" orientation="2" mirrored="1"
-             value="6900.0" label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="64" type="0" x="124" y="2" orientation="0" mirrored="1" value="0.0"
-             label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="65" type="3" x="43" y="9" orientation="0" mirrored="1" value="15000.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="66" type="0" x="43" y="15" orientation="0" mirrored="1" value="0.0"
@@ -153,7 +149,7 @@
     <ELEMENT id="67" type="3" x="36" y="2" orientation="1" mirrored="1" value="475000.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="68" type="11" x="63" y="-2" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:triode-12ax7-ehx" label="" taper="0"
+             value="0.0" modelId="celine:triode-12ax7-rsd" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="69" type="3" x="61" y="5" orientation="2" mirrored="1" value="10000.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -278,8 +274,6 @@
     <WIRE id="112" x1="120" y1="-10" x2="120" y2="-9"/>
     <WIRE id="113" x1="120" y1="-5" x2="120" y2="-3"/>
     <WIRE id="114" x1="123" y1="-7" x2="125" y2="-7"/>
-    <WIRE id="115" x1="124" y1="-7" x2="124" y2="-6"/>
-    <WIRE id="116" x1="124" y1="-2" x2="124" y2="0"/>
     <WIRE id="118" x1="43" y1="11" x2="43" y2="13"/>
     <WIRE id="119" x1="38" y1="2" x2="40" y2="2"/>
     <WIRE id="120" x1="63" y1="1" x2="63" y2="2"/>

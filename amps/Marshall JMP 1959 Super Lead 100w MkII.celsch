@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<CELINESCHEMATIC celineVersion="1.0.0">
+<CELINESCHEMATIC celineVersion="1.3.0">
   <PARAMETERS>
     <PARAM id="bypass" value="0.0"/>
     <PARAM id="channels" value="3.0"/>
@@ -21,7 +21,7 @@
     <PARAM id="knob7" value="0.5"/>
     <PARAM id="knob8" value="0.0"/>
     <PARAM id="knob9" value="0.0"/>
-    <PARAM id="output" value="0.0"/>
+    <PARAM id="output" value="-19.69999885559082"/>
   </PARAMETERS>
   <SCHEMATIC>
     <ELEMENT id="1" type="1" x="0" y="0" orientation="0" mirrored="0" value="0.0"
@@ -56,7 +56,7 @@
     <ELEMENT id="21" type="0" x="27" y="13" orientation="0" mirrored="1" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="28" type="11" x="62" y="0" orientation="0" mirrored="0" value="0.0"
-             modelId="celine:triode-12ax7-ehx" label="" taper="0" polarised="0"
+             modelId="celine:triode-12ax7-rsd" label="" taper="0" polarised="0"
              closed="1"/>
     <ELEMENT id="29" type="3" x="62" y="7" orientation="0" mirrored="1" value="1000.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -73,7 +73,7 @@
     <ELEMENT id="39" type="0" x="36" y="-12" orientation="0" mirrored="1"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="41" type="11" x="69" y="-4" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:triode-12ax7-ehx" label="" taper="0"
+             value="0.0" modelId="celine:triode-12ax7-rsd" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="42" type="3" x="69" y="3" orientation="0" mirrored="1" value="100000.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -111,10 +111,10 @@
     <ELEMENT id="65" type="4" x="96" y="-4" orientation="1" mirrored="0" value="2.2e-8"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="66" type="11" x="103" y="-4" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:triode-12ax7-ehx" label="" taper="0"
+             value="0.0" modelId="celine:triode-12ax7-jj" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="67" type="11" x="109" y="-4" orientation="0" mirrored="1"
-             value="0.0" modelId="celine:triode-12ax7-ehx" label="" taper="0"
+             value="0.0" modelId="celine:triode-12ax7-jj" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="68" type="3" x="106" y="3" orientation="2" mirrored="0" value="470.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -221,11 +221,7 @@
              value="16.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="116" type="0" x="158" y="-5" orientation="0" mirrored="1"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="117" type="3" x="161" y="-11" orientation="0" mirrored="1"
-             value="0.47" label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="118" type="0" x="161" y="-5" orientation="0" mirrored="1"
-             value="0.0" label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="119" type="2" x="164" y="-14" orientation="2" mirrored="1"
+    <ELEMENT id="119" type="2" x="161" y="-14" orientation="2" mirrored="1"
              value="0.0" label="" taper="0" polarised="0" closed="1" cab="0"
              cabFile=""/>
     <ELEMENT id="120" type="18" x="30" y="-25" orientation="0" mirrored="0"
@@ -416,11 +412,9 @@
     <WIRE id="244" x1="94" y1="12" x2="93" y2="12"/>
     <WIRE id="245" x1="155" y1="-8" x2="158" y2="-8"/>
     <WIRE id="246" x1="158" y1="-9" x2="158" y2="-7"/>
-    <WIRE id="248" x1="155" y1="-14" x2="162" y2="-14"/>
+    <WIRE id="248" x1="155" y1="-14" x2="159" y2="-14"/>
     <WIRE id="249" x1="158" y1="-14" x2="158" y2="-13"/>
     <WIRE id="250" x1="156" y1="-15" x2="156" y2="-14"/>
-    <WIRE id="251" x1="161" y1="-9" x2="161" y2="-7"/>
-    <WIRE id="253" x1="161" y1="-14" x2="161" y2="-13"/>
     <WIRE id="254" x1="33" y1="-16" x2="33" y2="-15"/>
     <WIRE id="255" x1="33" y1="-15" x2="39" y2="-15"/>
     <WIRE id="256" x1="39" y1="-15" x2="39" y2="-16"/>

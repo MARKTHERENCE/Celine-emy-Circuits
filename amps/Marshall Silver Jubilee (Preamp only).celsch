@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<CELINESCHEMATIC celineVersion="1.0.0">
+<CELINESCHEMATIC celineVersion="1.3.0">
   <PARAMETERS>
     <PARAM id="bypass" value="0.0"/>
     <PARAM id="channels" value="3.0"/>
@@ -21,7 +21,7 @@
     <PARAM id="knob7" value="0.0"/>
     <PARAM id="knob8" value="0.5"/>
     <PARAM id="knob9" value="0.5"/>
-    <PARAM id="output" value="0.0"/>
+    <PARAM id="output" value="-5.399997711181641"/>
   </PARAMETERS>
   <SCHEMATIC>
     <ELEMENT id="1" type="1" x="0" y="0" orientation="0" mirrored="0" value="0.0"
@@ -59,7 +59,7 @@
     <ELEMENT id="16" type="3" x="41" y="2" orientation="0" mirrored="0" value="220000.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="17" type="11" x="45" y="-1" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:triode-12ax7-ehx" label="" taper="0"
+             value="0.0" modelId="celine:triode-12ax7-rsd" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="18" type="3" x="47" y="17" orientation="0" mirrored="0" value="1500.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -127,7 +127,7 @@
              controlOrder="6" label="Rhythm Clip" taper="0" polarised="0"
              closed="0"/>
     <ELEMENT id="46" type="11" x="89" y="5" orientation="0" mirrored="0" value="0.0"
-             modelId="celine:triode-12ax7-ehx" label="" taper="0" polarised="0"
+             modelId="celine:triode-12ax7-rsd" label="" taper="0" polarised="0"
              closed="1"/>
     <ELEMENT id="47" type="3" x="89" y="12" orientation="2" mirrored="0" value="1500.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -162,7 +162,7 @@
     <ELEMENT id="62" type="0" x="101" y="16" orientation="0" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="63" type="11" x="105" y="7" orientation="0" mirrored="0"
-             value="0.0" modelId="celine:triode-12ax7-ehx" label="" taper="0"
+             value="0.0" modelId="celine:triode-12ax7-rsd" label="" taper="0"
              polarised="0" closed="1"/>
     <ELEMENT id="64" type="3" x="105" y="14" orientation="0" mirrored="0"
              value="470.0" label="" taper="0" polarised="0" closed="1"/>
@@ -220,10 +220,6 @@
              value="1.0e6" controlOrder="4" label="Output Master" taper="1"
              polarised="0" closed="1" controlPosition="0.5"/>
     <ELEMENT id="92" type="0" x="144" y="16" orientation="0" mirrored="0"
-             value="0.0" label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="93" type="3" x="148" y="13" orientation="2" mirrored="0"
-             value="155000.0" label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="94" type="0" x="148" y="19" orientation="0" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="95" type="2" x="151" y="10" orientation="0" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1" cab="0"
@@ -378,8 +374,6 @@
     <WIRE id="189" x1="144" y1="7" x2="144" y2="8"/>
     <WIRE id="190" x1="144" y1="12" x2="144" y2="14"/>
     <WIRE id="191" x1="147" y1="10" x2="149" y2="10"/>
-    <WIRE id="192" x1="148" y1="10" x2="148" y2="11"/>
-    <WIRE id="193" x1="148" y1="15" x2="148" y2="17"/>
     <WIRE id="195" x1="23" y1="4" x2="23" y2="2"/>
     <WIRE id="197" x1="23" y1="-4" x2="23" y2="-2"/>
     <WIRE id="201" x1="55" y1="5" x2="59" y2="5"/>

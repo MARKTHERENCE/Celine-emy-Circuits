@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<CELINESCHEMATIC celineVersion="1.0.0">
+<CELINESCHEMATIC celineVersion="1.3.0">
   <PARAMETERS>
     <PARAM id="bypass" value="0.0"/>
     <PARAM id="channels" value="3.0"/>
@@ -21,7 +21,7 @@
     <PARAM id="knob7" value="0.0"/>
     <PARAM id="knob8" value="0.5"/>
     <PARAM id="knob9" value="0.5"/>
-    <PARAM id="output" value="0.0"/>
+    <PARAM id="output" value="-9.69999885559082"/>
   </PARAMETERS>
   <SCHEMATIC>
     <ELEMENT id="1" type="1" x="0" y="0" orientation="0" mirrored="0" value="0.0"
@@ -285,7 +285,7 @@
     <ELEMENT id="172" type="0" x="189" y="-2" orientation="0" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="174" type="3" x="195" y="-14" orientation="2" mirrored="0"
-             value="75.0" label="" taper="0" polarised="0" closed="1"/>
+             value="330.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="175" type="0" x="195" y="-8" orientation="0" mirrored="0"
              value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="176" type="3" x="153" y="-27" orientation="1" mirrored="0"

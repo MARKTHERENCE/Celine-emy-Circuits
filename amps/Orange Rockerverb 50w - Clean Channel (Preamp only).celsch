@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<CELINESCHEMATIC celineVersion="1.0.0">
+<CELINESCHEMATIC celineVersion="1.3.0">
   <PARAMETERS>
     <PARAM id="bypass" value="0.0"/>
     <PARAM id="channels" value="3.0"/>
@@ -21,7 +21,7 @@
     <PARAM id="knob7" value="1.0"/>
     <PARAM id="knob8" value="0.5"/>
     <PARAM id="knob9" value="0.5"/>
-    <PARAM id="output" value="0.0"/>
+    <PARAM id="output" value="-15.60000038146973"/>
   </PARAMETERS>
   <SCHEMATIC>
     <ELEMENT id="1" type="1" x="0" y="0" orientation="0" mirrored="0" value="0.0"
@@ -55,7 +55,7 @@
     <ELEMENT id="16" type="0" x="29" y="13" orientation="0" mirrored="0" value="0.0"
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="17" type="11" x="39" y="7" orientation="0" mirrored="0" value="0.0"
-             modelId="celine:triode-12ax7-ehx" label="" taper="0" polarised="0"
+             modelId="celine:triode-12ax7-rsd" label="" taper="0" polarised="0"
              closed="1"/>
     <ELEMENT id="18" type="3" x="41" y="14" orientation="0" mirrored="0" value="1500.0"
              label="" taper="0" polarised="0" closed="1"/>
@@ -102,10 +102,6 @@
              label="" taper="0" polarised="0" closed="1"/>
     <ELEMENT id="126" type="3" x="51" y="18" orientation="0" mirrored="0"
              value="6800.0" label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="127" type="3" x="65" y="9" orientation="0" mirrored="0" value="17500.0"
-             label="" taper="0" polarised="0" closed="1"/>
-    <ELEMENT id="128" type="0" x="65" y="15" orientation="0" mirrored="0"
-             value="0.0" label="" taper="0" polarised="0" closed="1"/>
     <WIRE id="1" x1="2" y1="0" x2="4" y2="0"/>
     <WIRE id="2" x1="8" y1="0" x2="10" y2="0"/>
     <WIRE id="5" x1="14" y1="0" x2="16" y2="0"/>
@@ -167,7 +163,5 @@
     <WIRE id="279" x1="51" y1="21" x2="55" y2="21"/>
     <WIRE id="281" x1="51" y1="15" x2="51" y2="16"/>
     <WIRE id="282" x1="58" y1="6" x2="60" y2="6"/>
-    <WIRE id="284" x1="65" y1="6" x2="65" y2="7"/>
-    <WIRE id="285" x1="65" y1="11" x2="65" y2="13"/>
   </SCHEMATIC>
 </CELINESCHEMATIC>
