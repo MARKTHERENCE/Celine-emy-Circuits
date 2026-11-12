@@ -42,6 +42,10 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
    - Randall RGT100
      - Only Channel 2 is included as of 11/10/2026 because it is used for a bug report. The Zener diodes between the cathode follower and tonestack seem to result in unstable simulation behavior.
    - Randall Warhead X2 (Preamp only)
+   - Vox UL430
+     - The real amp has Bass and Normal inputs, but they're practically identical.
+   - Vox UL4120
+     - The power amp section is shared with the UL7120.
    - Vox UL730
    - Vox UL7120
      - Biasing for the power tubes are dependent on whether either preamp or poweramp sections are combined or isolated:
