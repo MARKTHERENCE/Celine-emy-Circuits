@@ -38,6 +38,7 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
    - Marshall Silver Jubilee 2550 & 2555
    - Orange Rockerverb 50w
    - Orange Thunderverb 50w
+   - Peavey Decade (Preamp only)
    - Randall RG100 (Preamp only)
    - Randall RGT100
    - Randall Warhead X2 (Preamp only)
