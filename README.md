@@ -40,7 +40,6 @@ Circuits of various guitar/bass amps and FX pedals. This list may expand over ti
    - Orange Thunderverb 50w
    - Randall RG100 (Preamp only)
    - Randall RGT100
-     - Only Channel 2 is included as of 11/10/2026 because it is used for a bug report. The Zener diodes between the cathode follower and tonestack seem to result in unstable simulation behavior.
    - Randall Warhead X2 (Preamp only)
    - Vox UL430
      - The real amp has Bass and Normal inputs, but they're practically identical.
